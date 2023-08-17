@@ -1,0 +1,263 @@
+
+body{
+    background-color: #0F0C18;
+}
+
+h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif , sans-serif;
+    line-height: 1.6;
+padding : 2em;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    -webkit-text-fill-color: rgb(191, 181, 228); 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #45a7d4;
+}
+
+main section {
+
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #85d4e7;
+    margin-top: 50px;
+}
+
+.sun{
+    display: flex;
+}
+
+.sun .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.sun .text h2{
+    color: thistle;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.sun .text p{
+    color: #C770F0;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.sun .image img{
+    width: 200px;
+    height: 200px;
+}
+
+.mercury{
+    display: flex;
+    padding: 2em;
+    margin-right: 2em;
+}
+
+.mercury .text1 {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.mercury .text1 h2{
+    color: thistle;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.mercury .text1 p{
+    color: #C770F0;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.mercury .asp img{
+    width: 350px;
+    height: 200px;
+}
+.venus{
+    display: flex;
+}
+
+.venus .text2 {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.venus .text2 h2{
+    color: thistle;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.venus .text2 p{
+    color: #C770F0;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.venus .yess img{
+    width: 180px;
+    height: 300px;
+}
+.Planets h2{
+    font-size: 2.5em;
+    font-style :italic  ;
+    color: burlywood;
+}
+.earth{
+    display: flex;
+}
+
+.earth .text3 {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.earth .text3 h2{
+    color: thistle;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.earth .text3 p{
+    color: #C770F0;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.earth .erth img{
+    width: 300px;
+    height: 300px;
+}
+.mars{
+    display: flex;
+}
+
+.mars .text4 {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.mars .text4 h2{
+    color: thistle;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.mars .text4 p{
+    color: #C770F0;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.mars .marss img{
+    width: 500px;
+    height: 300px;
+}
+.jupiter{
+    display: flex;
+}
+
+.jupiter .text5 {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.jupiter .text5 h2{
+    color: thistle;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.jupiter .text5 p{
+    color: #C770F0;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.jupiter .jupiterr img{
+    width: 500px;
+    height: 300px;
+}
+.saturn{
+    display: flex;
+}
+
+.mars .text4 {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.mars .text4 h2{
+    color: thistle;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.mars .text4 p{
+    color: #C770F0;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.mars .marss img{
+    width: 500px;
+    height: 300px;
+}
+
+.uranus{
+    display: flex;
+}
+
+.uranus .text5 {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.uranus .text5 h2{
+    color: thistle;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.uranus .text5 p{
+    color: #C770F0;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.uranus .uranuss img{
+    width: 500px;
+    height: 300px;
+}
