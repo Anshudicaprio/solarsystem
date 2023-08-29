@@ -11,23 +11,34 @@ h1, h2, ul, li, p {
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif , sans-serif;
     line-height: 1.6;
-padding : 2em;
 }
 
 header, nav, main, footer {
     margin: 20px;
 }
 
-header {
+header h3 {
     text-align: center;
     -webkit-text-fill-color: rgb(191, 181, 228); 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New', serif;
     font-size: medium;
+    
 }
+header h1{
+    color:#f7f3fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 
+}
 nav ul {
     list-style: none;
     display: flex;
+    justify-content: right;
+    font-size: smaller;
 }
 
 nav li {
@@ -35,13 +46,19 @@ nav li {
 }
 
 nav a {
-    text-decoration: none;
-    color: #45a7d4;
+    text-decoration:color-mix(in lch shorter hue, color 20%, color 50%) ;
+    color: #f7f3fa;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
 }
+nav a:hover  {
+    animation: animateFade 1s ;
 
+}
+  
 main section {
 
-    padding: 20px;
+    padding: 5px;
     margin-bottom: 20px;
 }
 
@@ -59,180 +76,186 @@ footer {
 .sun .text {
     margin-left: 1em;
     padding-right: 10%;
+
 }
 
 .sun .text h2{
-    color: thistle;
-    font-size: 2em;
+    color: #f7f3fa;
+    font-size: 2.5em;
     font-weight: 500;
 }
 
-.sun .text p{
-    color: #C770F0;
+li{
+    color: #cd80f1;
     font-size: 1em;
     font-weight: 100;
 }
 
 .sun .image img{
-    width: 200px;
-    height: 200px;
+    width: 390px;
+    height: 390px;
+    padding-top: 3em;
+    margin-right: 4rem;
 }
 
-.mercury{
+.venuss{
     display: flex;
-    padding: 2em;
-    margin-right: 2em;
 }
-
-.mercury .text1 {
+.venuss .text {
     margin-left: 1em;
     padding-right: 10%;
 }
 
-.mercury .text1 h2{
-    color: thistle;
+.venuss .text h2{
+    color:darkseagreen ;
     font-size: 2em;
     font-weight: 500;
 }
 
-.mercury .text1 p{
-    color: #C770F0;
+.venuss .text p{
+    
     font-size: 1em;
     font-weight: 100;
 }
 
-.mercury .asp img{
-    width: 350px;
-    height: 200px;
+.venuss img{
+    width: 432px;
+    height: 234px;
+    margin-left: 0.8rem;
 }
+
 .venus{
     display: flex;
 }
 
-.venus .text2 {
+.venus .text {
     margin-left: 1em;
     padding-right: 10%;
 }
 
-.venus .text2 h2{
-    color: thistle;
+.venus .text h2{
+    color: darkseagreen;
     font-size: 2em;
     font-weight: 500;
 }
 
-.venus .text2 p{
-    color: #C770F0;
+.venus .text p{
     font-size: 1em;
     font-weight: 100;
 }
 
-.venus .yess img{
-    width: 180px;
-    height: 300px;
+.venus img{
+    width: 240px;
+    height: 405px;
+    padding-left: 4rem;
+    padding-bottom: -10rem;
+    margin-top: -2rem;
+    margin-left: 2rem;
 }
-.Planets h2{
-    font-size: 2.5em;
-    font-style :italic  ;
-    color: burlywood;
+.text{
+    width: 60rem;
+
+}
+.main-body{
+    display: flex;
 }
 .earth{
     display: flex;
 }
 
-.earth .text3 {
+.earth .text {
     margin-left: 1em;
     padding-right: 10%;
 }
 
-.earth .text3 h2{
-    color: thistle;
+.earth .text h2{
+    color: darkseagreen;
     font-size: 2em;
     font-weight: 500;
 }
 
-.earth .text3 p{
-    color: #C770F0;
+.earth .text p{
     font-size: 1em;
     font-weight: 100;
 }
 
-.earth .erth img{
-    width: 300px;
-    height: 300px;
+.earth img{
+    width: 340px;
+    height: 340px;
+    padding-left: 3.5rem;
+    
 }
 .mars{
     display: flex;
 }
 
-.mars .text4 {
+.mars .text {
     margin-left: 1em;
     padding-right: 10%;
 }
 
-.mars .text4 h2{
-    color: thistle;
+.mars .text h2{
+    color: darkseagreen;
     font-size: 2em;
     font-weight: 500;
 }
 
-.mars .text4 p{
-    color: #C770F0;
+.mars .text p{
     font-size: 1em;
     font-weight: 100;
 }
 
-.mars .marss img{
-    width: 500px;
-    height: 300px;
+.mars img{
+    width: 450px;
+    height: 270px;
 }
 .jupiter{
     display: flex;
 }
 
-.jupiter .text5 {
+.jupiter .text {
     margin-left: 1em;
     padding-right: 10%;
 }
 
-.jupiter .text5 h2{
-    color: thistle;
+.jupiter .text h2{
+    color: darkseagreen;
     font-size: 2em;
     font-weight: 500;
 }
 
-.jupiter .text5 p{
-    color: #C770F0;
+.jupiter .text p{
     font-size: 1em;
     font-weight: 100;
 }
 
-.jupiter .jupiterr img{
+.jupiter img{
     width: 500px;
     height: 300px;
+    padding-right: -2rem;
 }
 .saturn{
     display: flex;
 }
 
-.saturn .text6 {
+.saturn .text {
     margin-left: 1em;
     padding-right: 10%;
 }
 
-.saturn .text6 h2{
-    color: thistle;
+.saturn .text h2{
+    color: darkseagreen;
     font-size: 2em;
     font-weight: 500;
 }
 
-.saturn .text6 p{
-    color: #C770F0;
+.saturn .text p{
     font-size: 1em;
     font-weight: 100;
 }
 
-.saturn .marss img{
-    width: 500px;
+.saturn img{
+    width: 400px;
     height: 300px;
 }
 
@@ -240,24 +263,457 @@ footer {
     display: flex;
 }
 
-.uranus .text5 {
+.uranus .text {
     margin-left: 1em;
     padding-right: 10%;
 }
 
-.uranus .text5 h2{
-    color: thistle;
+.uranus .text h2{
+    color: darkseagreen;
     font-size: 2em;
     font-weight: 500;
 }
 
-.uranus .text5 p{
-    color: #C770F0;
+.uranus .text p{
     font-size: 1em;
     font-weight: 100;
 }
 
-.uranus .uranuss img{
+.uranus img{
     width: 500px;
+    height: 380px;
+    padding-right: -2rem;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img:hover{
+    animation: animateFade 1s ;
+
+}
+@keyframes animateFade{
+    0%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity:0.6;
+    }
+}
+.planets .planettext p{
+    color:#85d4e7;
+    font-size:1.05em;
+}
+ li{
+    color:#85d4e7;
+}
+.planets .planettext h2{
+    color: #f7f3fa;
+    font-size:2.5em;
+}
+.neptune{
+    display: flex;
+}
+
+.neptune .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.neptune .text h2{
+    color: darkseagreen;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.neptune .text p{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.neptune img{
+    width: 500px;
+    height: 340px;
+}
+.moons .moonstext p{
+    color:#85d4e7;
+    font-size:1em;
+}
+    
+.moons .moonstext h2{
+    color: #f7f3fa;
+    font-size:2.5em;
+}
+
+.dp .dptext p{
+    color:#85d4e7;
+    font-size:1em;
+}
+
+.dp .dptext h2{
+    color: #f7f3fa;
+    font-size:2.5em;
+}
+.pluto{
+    display: flex;
+}
+
+.pluto .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.pluto .text h2{
+    color: darkseagreen;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.pluto .text p{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.pluto img{
+    width: 380px;
+    height: 280px;
+    padding-left: 2rem;
+}
+.ceres{
+    display: flex;
+}
+
+.ceres .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.ceres .text h2{
+    color: darkseagreen;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.ceres .text p{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.ceres img{
+    width: 450px;
+    height: 280px;
+    padding-right: -2rem;
+}
+.eris{
+    display: flex;
+}
+
+.eris .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.eris .text h2{
+    color: darkseagreen;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.eris .text p{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.eris img{
+    width: 450px;
+    height: 250px;
+    padding-right: -2rem;
+}
+
+.haumea{
+    display: flex;
+}
+
+.haumea .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.haumea .text h2{
+    color: darkseagreen;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.haumea .text p{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.haumea img{
+    width: 380px;
+    height: 250px;
+    margin-left: 3rem;
+}
+.makemake{
+    display: flex;
+}
+
+.makemake .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.makemake .text h2{
+    color: darkseagreen;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.makemake .text p{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.makemake img{
+    width: 400px;
     height: 300px;
+    padding-left: 2rem;
+}
+.emoon{
+    display: flex;
+}
+
+.emoon .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.emoon .text h2{
+    color: darkseagreen;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.emoon .text p{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.emoon img{
+    width: 390px;
+    height: 290px;
+    padding-right: -2rem;
+}
+.ganymede{
+    display: flex;
+}
+
+.ganymede .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.ganymede .text h2{
+    color: darkseagreen;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.ganymede .text p{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.ganymede img{
+    width: 240px;
+    height: 240px;
+   margin-left: 5rem;
+}
+.europa {
+    display: flex;
+}
+
+.europa .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.europa .text h2{
+    color: darkseagreen;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.europa .text p{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.europa img{
+    width: 300px;
+    height: 300px;
+    margin-left: 5rem ;
+
+}
+.callisto{
+    display: flex;
+}
+
+.callisto .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.callisto .text h2{
+    color: darkseagreen;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.callisto .text p{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.callisto img{
+    width: 450px;
+    height: 250px;
+    margin-left: 1rem;
+}
+.io{
+    display: flex;
+}
+
+.io .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.io .text h2{
+    color: darkseagreen;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.io .text p{
+
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.io img{
+    width: 360px;
+    height: 200px;
+  margin-left: 2rem;
+}
+.titan{
+    display: flex;
+}
+
+.titan .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+
+.titan .text h2{
+    color: darkseagreen;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.titan .text p{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.titan img{
+    width: 320px;
+    height: 250px;
+    margin-left: 5rem;
+}
+
+.aac .aactext h1{
+    color: darkseagreen;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.aac .aactext h2{
+    color: #f7f3fa;
+    font-size:2.5em;
+}
+.ast .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+.ast .text p{
+
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.ast img{
+    width: 220px;
+    height: 220px;
+}
+.comets .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+.comets .text p{
+
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.comets img{
+    width: 220px;
+    height: 220px;
+}
+.mets .text {
+    margin-left: 1em;
+    padding-right: 10%;
+}
+.mets .text p{
+
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.mets img{
+    width: 220px;
+    height: 220px;
+}
+
+.inp .inptext h2{
+    color: #f7f3fa;
+    font-size:2.5em;
+}
+.inp .inptext p{
+    color: #85d4e7;
+    font-size: 1em;
+    font-weight: 100;
+}
+.ooc .ooctext h2{
+    color: #f7f3fa;
+    font-size:2.5em;
+}
+.ooc .ooctext p{
+    color: #85d4e7;
+    font-size: 1em;
+    font-weight: 100;
+}
+.ooc{
+    display: flex;
+}
+.ooc img{
+    width: 300px;
+    height: 200px;
+
 }
